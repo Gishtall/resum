@@ -59,6 +59,7 @@ function displynum(n1) {
 // tdlist
 (function () {
     let tasks = {
+        // текущие задачи 
             current: [{
                 taskId: doId(),
                 taskContent: " my resume was noticed ",
@@ -68,11 +69,13 @@ function displynum(n1) {
                 taskContent: "to get a job in a perspective company and  continue training",
                 taskState: "current"
             }],
+            // выполненные задачи
             done: [{
                 taskId: doId(),
                 taskContent: "find a mentor",
                 taskState: "current"
             }],
+            // возвращают длину массивов тасок
             get allTasks() {
                 return this.current.length + this.done.length;
             },
@@ -80,9 +83,11 @@ function displynum(n1) {
                 return this.done.length;
             }
         },
+        // переменные для цифер
         tasksList = document.getElementById("app__list"),
         allTasks = document.getElementById("js-all-tasks"),
         doneTasks = document.getElementById("js-done-tasks"),
+        // переменная для поля
         addNewTaskField = document.getElementById("app__task-new");
 
     function INIT() {
@@ -92,22 +97,26 @@ function displynum(n1) {
         for (const item of tasks.done) {
             createItem(item);
         }
+        // сразу ставим числа в общие таски по умолчанию
         allTasks.innerHTML = tasks.allTasks;
         doneTasks.innerHTML = tasks.doneTasks;
     }
-
+    
     function createItem(el) {
         let item = document.createElement('li'),
             remove = document.createElement('div'),
             text = document.createElement('span');
+            // добавляем для списка, крестика и текста
         remove.classList.add('app__list-remove');
         remove.addEventListener('click', function () {
             removeTask(this);
         });
+        // добавляем класс и событие для текста
         text.classList.add('app__list-text');
         text.addEventListener('click', function () {
             doneTask(this);
         });
+        // проверка done/current
         switch (el.taskState) {
             case 'done':
                 item.classList.add('app__list-item', 'app__list-item--done');
@@ -115,6 +124,7 @@ function displynum(n1) {
             default:
                 item.classList.add('app__list-item');
         }
+        // add каждой таске,id,контент, ремув и сам итем
         item.id = el.taskId;
         text.innerHTML = el.taskContent;
         item.appendChild(text);
@@ -165,10 +175,11 @@ function displynum(n1) {
 
     function doId() {
         return Math.random().toString(36).substr(2, 16);
+        // задаёт id новому элементу
     }
 
     INIT();
-
+    // добавляет на клавишу ентер
     addNewTaskField.addEventListener('keyup',function (e) {
         if(e.keyCode === 13) {
             addTasks(this.value);
