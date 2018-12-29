@@ -1,3 +1,5 @@
+
+
 // player
 document.querySelector('#exampleModal').addEventListener('click',()=>{
 document.querySelector('.firstSong').click();
