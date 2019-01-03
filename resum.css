@@ -52,6 +52,12 @@ h4 {
 #myModal{
     background-color: rgba(0, 0, 0, 0.95)
 }
+ .btn:focus, .btn:hover {
+    box-shadow: 0 0 0 0.1rem aliceblue;
+}
+.close:focus, .close:hover{
+    outline: none;
+}
 
 /* player */
 
