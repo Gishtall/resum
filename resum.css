@@ -44,6 +44,15 @@ h4 {
     background: rgba(200, 0, 0, 0.400);
 }
 
+/* popup about me */
+.btn-block{
+    margin:  5px 10px 15px 1px;
+    -moz-user-focus: initial;
+}
+#myModal{
+    background-color: rgba(0, 0, 0, 0.95)
+}
+
 /* player */
 
 ul.player li {
