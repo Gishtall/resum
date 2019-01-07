@@ -1,4 +1,4 @@
-let find = document.querySelector('.app');
+let find = document.querySelector('.wrapper');
 function render() {
 
     find.innerHTML =  `<!-- Modal -->
