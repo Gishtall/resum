@@ -45,25 +45,58 @@ h4 {
     font-weight: bold;
     text-align: center;
 }
-/* icons */
-.far .fab{
-    background-color: rgb(200, 0, 0)
-}
+
 /* ava */
-.tilt{
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-.tilt:hover{
-    -webkit-transition: rotate (-10deg);
-    -moz-transition: rotate (-10deg);
-    -o-transition: rotate (-10deg);
-    -ms-transition: rotate (-10deg);
-    transition: rotate (-10deg);
-}
+.cpm{
+    --uiCMPBoxSizing: var(--cpmBoxSizing, border-box);
+    --uiCMPDisplay: var(--cpmDisplay, inline-block);
+    --uiCMPMask: var(--cpmMask);
+    --uiCPMStrokeThickness: var(--cpmStrokeThickness);
+    --uiCPMStrokeColor: var(--cpmStrokeColor);
+    --uiCPMAnimationDuration: var(--cpmAnimationDuration, .2s);
+    --uiCPMAnimationTimingFunction: var(--cpmAnimationTimingFunction, ease-out);
+    
+    box-sizing: var(--uiCMPBoxSizing) !important;
+    display: var(--uiCMPDisplay) !important;
+    padding: var(--uiCPMStrokeThickness) !important;
+    clip-path: var(--uiCMPMask) !important;
+    background-color: var(--uiCPMStrokeColor) !important;
+    
+  }
+  
+  .cpm__img{
+    max-width: 100% !important;
+    display: block !important;
+    clip-path: var(--cpmMask) !important;
+    
+    
+  }
+  
+  .cpm, 
+  .cpm__img{
+    transition: clip-path var(--uiCPMAnimationDuration) var(--uiCPMAnimationTimingFunction) !important;
+    
+  }
+
+.cpm_type3{
+    --cpmMask: polygon(0 10%, 10% 10%, 10% 0, 90% 0, 90% 10%, 100% 10%, 100% 90%, 90% 90%, 90% 100%, 10% 100%, 10% 90%, 0 90%);
+    
+  }
+
+.cpm_type3-a1{
+    --cpmAnimationDuration: .5s;
+    
+  }
+  
+  .cpm_type3:hover, 
+  .cpm_type3:focus{
+    --cpmMask: polygon(90% 0, 100% 0, 100% 10%, 100% 90%, 100% 100%, 90% 100%, 10% 100%, 0 100%, 0 90%, 0 10%, 0 0, 10% 0);
+    
+  }
+  .cpm{
+    --cpmStrokeColor: rgb(200.0.0.0);
+    --cpmStrokeThickness: 2px;
+  }
 /* modal wind */
 
 #exampleModal {
@@ -159,8 +192,8 @@ textarea,
 select,
 button {
     font-family: "Orbitron";
-    background-color: rgba(199, 0, 0, 0.705);
-    outline-color: rgba(200, 0, 0, 0.2)
+    background-color: rgba(200, 0, 0, 0.705);
+    outline-color: rgba(200, 0, 0, 0.2);
 }
 
 /* tdlist */
