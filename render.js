@@ -1,26 +1,7 @@
 let find = document.querySelector('.wrapper');
 function render() {
 
-    find.innerHTML =  `<!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Hello</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            To start viewing resume ?
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Yes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--modal wind-->
+    find.innerHTML =  `<!--modal wind-->
     <div class="container-fluide ">
       <div class="row justify-content-center ">
         <div class="col-10" id="back">
@@ -36,7 +17,6 @@ function render() {
                       <img src="image/avatar.jpg" class="cpm__img tile__img" alt="my_photo">
                     </a>
                   </div>
-  
                 </div>
                 <div class="col">
                   <ul>

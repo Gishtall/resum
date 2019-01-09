@@ -1,10 +1,6 @@
 
 
-// player
-document.querySelector('#exampleModal').addEventListener('click',()=>{
-document.querySelector('.firstSong').click();
-// подвешиваем первый трек на модальное окно
-})
+
 document.querySelector('ul.player').addEventListener('click', function(object){
     //Получаем песню
     var Song = object.target.getAttribute('data-src');

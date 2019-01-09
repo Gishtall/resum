@@ -8,13 +8,13 @@ body {
     font-size: 20px;
 }
     A {
-        color: rgb(173, 11, 11); 
+        color: rgb(11, 100, 173); 
        }
        A:visited {
-        color: rgba(202, 0, 0, 0.678); 
+        color: rgba(0, 71, 202, 0.678); 
        }
        A:active {
-        color: red; 
+        color: rgb(13, 0, 199); 
        }
 
 
@@ -27,23 +27,24 @@ body {
 
 .col{
     background: rgba(0, 0, 0, 0.7);
-    border: 1px solid red;
+    border: 1px solid rgb(0, 47, 255);
     margin: 8px;
     border-radius: 10px;
     font-family: "Exo 2";
 }
 .href{
-    color: rgb(200, 0, 0)
+    color: rgb(3, 0, 200)
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: rgb(200, 0, 0);
+    color: rgb(0, 80, 200);
     font-family: "Orbitron";
     font-weight: bold;
     text-align: center;
+    
 }
 
 /* ava */
@@ -94,7 +95,7 @@ h4 {
     
   }
   .cpm{
-    --cpmStrokeColor: rgb(200.0.0.0);
+    --cpmStrokeColor: rgb(0, 80, 200);
     --cpmStrokeThickness: 2px;
   }
 /* modal wind */
@@ -105,7 +106,7 @@ h4 {
 }
 
 .modal-content {
-    background: rgba(200, 0, 0, 0.400);
+    background: rgba(17, 107, 226, 0.4);
 }
 
 /* popup about me */
@@ -132,19 +133,19 @@ ul.player li {
 }
 
 ul.player li:hover {
-    background-color: rgba(200, 0, 0, 0.2);
+    background-color: rgba(0, 93, 200, 0.2);
     border-radius: 20px;
 }
 
 ul.player li#playing {
     background: url(./icon/pause2.png) no-repeat 10px 10px;
-    background-color: rgba(255, 0, 0, 0.842);
+    background-color: rgba(0, 102, 255, 0.842);
     border-radius: 20px;
 }
 
 ul.player li#paused {
     background: url(./icon/play2.png) no-repeat 10px 10px;
-    background-color: rgba(255, 0, 0, 0.486);
+    background-color: rgba(0, 17, 255, 0.486);
     border-radius: 20px;
 }
 
@@ -152,12 +153,12 @@ ul.player li#paused {
 
 .gallery img {
     margin: 5px;
-    border: 3px solid rgba(255, 0, 0, 0.486);
+    border: 3px solid rgba(0, 102, 255, 0.486);
     border-radius: 10px;
 }
 
 a.photo:hover img {
-    border: 3px solid rgba(255, 0, 0, 0.842);
+    border: 3px solid rgba(0, 183, 255, 0.842);
 }
 
 /* calc */
@@ -165,7 +166,7 @@ a.photo:hover img {
 .calc {
     width: 500px;
     margin: 0 auto;
-    border: 3px solid rgba(202, 0, 0, 0.678);
+    border: 3px solid rgba(0, 54, 202, 0.678);
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -174,7 +175,7 @@ input[type=button] {
     margin: 5px 5px 5px 13px;
     height: 80px;
     width: 100px;
-    border: 2px solid rgb(173, 11, 11);
+    border: 2px solid rgb(11, 35, 173);
     font-size: 50px;
 }
 
@@ -192,8 +193,8 @@ textarea,
 select,
 button {
     font-family: "Orbitron";
-    background-color: rgba(200, 0, 0, 0.705);
-    outline-color: rgba(200, 0, 0, 0.2);
+    background-color: rgba(0, 87, 200, 0.705);
+    outline-color: rgba(0, 30, 200, 0.2);
 }
 
 /* tdlist */
@@ -207,7 +208,7 @@ li {
 }
 
 .app {
-  box-shadow: 0 0 3px 0 rgb(200, 0, 0);
+  box-shadow: 0 0 3px 0 rgb(0, 80, 200);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -215,7 +216,7 @@ li {
   width: 100%; 
 }
   .app__header {
-    background-color: rgba(200, 0, 0, 0.4);
+    background-color: rgba(0, 93, 200, 0.4);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -236,10 +237,10 @@ li {
       flex: 1; 
     }
   .app__body {
-    background-color:rgba(200, 0, 0, 0.300); 
+    background-color:rgba(0, 37, 200, 0.3); 
 }
   .app__footer {
-    background-color: rgba(200, 0, 0, 0.300);
+    background-color: rgba(0, 70, 200, 0.3);
     padding: 8px 16px; 
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -250,7 +251,7 @@ li {
     position: relative; 
 }
     .app__list-item:hover {
-      background-color: rgba(200, 0, 0, 0.5); 
+      background-color: rgba(0, 53, 200, 0.5); 
     }
       .app__list-item:hover .app__list-remove {
         opacity: 0.5; 
@@ -271,7 +272,7 @@ li {
     padding: 8px 16px; 
 }
   .app__list-remove {
-    border: 1px solid red;
+    border: 1px solid rgb(0, 140, 255);
     border-radius: 50%;
     cursor: pointer;
     height: 32px;
@@ -285,7 +286,7 @@ li {
     width: 32px; }
     .app__list-remove:before, .app__list-remove:after {
       content: "";
-      background-color: red;
+      background-color: rgb(0, 60, 255);
       display: block;
       left: 50%;
       position: absolute;
