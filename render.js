@@ -106,21 +106,21 @@ function render() {
               <h4>Gallery</h4>
               <!--gallery-->
               <div class="gallery">
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/01.jpg" title="Gibson_SG"><img src="gallery_img/small/01.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/01.jpg" title="Cosmos"><img src="gallery_img/small/01.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/02.jpg" title="Forest"><img src="gallery_img/small/02.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/02.jpg" title="Meadow"><img src="gallery_img/small/02.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/03.jpg" title="London"><img src="gallery_img/small/03.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/03.jpg" title="Pier"><img src="gallery_img/small/03.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/04.jpg" title="Dead_Pool"><img src="gallery_img/small/04.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/04.jpg" title="Fire"><img src="gallery_img/small/04.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/05.jpg" title="Cosmos"><img src="gallery_img/small/05.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/05.jpg" title="Nature"><img src="gallery_img/small/05.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/06.jpg" title="Deadline"><img src="gallery_img/small/06.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/06.jpg" title="Sea"><img src="gallery_img/small/06.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/07.jpg" title="Cats"><img src="gallery_img/small/07.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/07.jpg" title="Mountains"><img src="gallery_img/small/07.jpg"
                     width="160" height="100" alt="" /></a>
-                <a data-fancybox="gallery" class="photo" href="gallery_img/big/08.jpg" title="Resident_evil"><img src="gallery_img/small/08.jpg"
+                <a data-fancybox="gallery" class="photo" href="gallery_img/big/08.jpg" title="fairy_tale"><img src="gallery_img/small/08.jpg"
                     width="160" height="100" alt="" /></a>
                 <a data-fancybox="gallery" class="photo" href="gallery_img/big/09.jpg" title="Car"><img src="gallery_img/small/09.jpg"
                     width="160" height="100" alt="" /></a>
