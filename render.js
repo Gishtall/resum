@@ -5,7 +5,7 @@ function render() {
     <div class="container-fluide ">
       <div class="row justify-content-center ">
         <div class="col-10" id="back">
-          <h1>My Resume</h1>
+          <h1>My curriculum vitae</h1>
           <div class="row">
             <div class="col">
               <!--photo & continfo-->

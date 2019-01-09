@@ -1,6 +1,5 @@
 
 
-
 document.querySelector('ul.player').addEventListener('click', function(object){
     //Получаем песню
     var Song = object.target.getAttribute('data-src');

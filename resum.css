@@ -35,8 +35,13 @@ body {
 .href{
     color: rgb(3, 0, 200)
 }
+h1{
+    color: black;
+    font-family: "Orbitron";
+    font-weight: bold;
+    text-align: center;
+}
 
-h1,
 h2,
 h3,
 h4 {
