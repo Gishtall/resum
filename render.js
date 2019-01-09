@@ -46,7 +46,7 @@ function render() {
                     <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/gishtall/">Instagram</a></li>
                     <li><i class="fab fa-telegram"></i><a href="http://t.me/gishtall/">Telegram</a></li>
                     <li><i class="fab fa-github"></i><a href="https://github.com/Gishtall/resum">GitHub</a></li>
-                    <li><i class="fab fa-aws"></i><a href="#">AWS</a></li>
+                    <li><i class="fab fa-aws"></i><a href="https://s3.amazonaws.com/itresum/resum.html">AWS</a></li>
                   </ul>
                 </div>
               </div>
