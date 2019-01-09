@@ -1,7 +1,7 @@
 let find = document.querySelector('.wrapper');
 function render() {
 
-    find.innerHTML =  `<!--modal wind-->
+  find.innerHTML = `<!--modal wind-->
     <div class="container-fluide ">
       <div class="row justify-content-center ">
         <div class="col-10" id="back">
@@ -32,8 +32,13 @@ function render() {
               </div>
             </div>
             <div class="col">
-              <h4>About me</h4>
-              <div>
+              <h4>Skills</h4>
+              </div>
+          </div>
+          <div class="row">
+           <div class="col">
+           <h4>About me</h4>
+           <div>
   
                 My knowledge of web-development started with Adobe Photoshop. I was helping my friend with user bars,
                 icons and banners for his web-site. But all those elements were static. I wondered how I could change
@@ -88,7 +93,8 @@ function render() {
   
               </div>
             </div>
-          </div>
+           </div>
+          
           <div class="row">
             <!--player-->
             <div class="col">

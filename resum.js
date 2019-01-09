@@ -63,7 +63,7 @@ function displynum(n1) {
         // текущие задачи 
             current: [{
                 taskId: doId(),
-                taskContent: " my resume was noticed ",
+                taskContent: " to do curriculum vitae ",
                 taskState: "done"
             }, {
                 taskId: doId(),
