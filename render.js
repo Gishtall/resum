@@ -20,21 +20,29 @@ function render() {
                 </div>
                 <div class="col">
                   <ul>
-                    <li><i class="fas fa-mail-bulk"></i><a href="#">Gishtall@gmail.com</a></li>
-                    <li><i class="fab fa-viber"></i><a href="#">+375(29)388 05 07</a></li>
-                    <li><i class="fas fa-phone-volume"></i><a href="#">+375(33)602 36 74</a></li>
-                    <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/gishtall/">Instagram</a></li>
-                    <li><i class="fab fa-telegram"></i><a href="http://t.me/gishtall/">Telegram</a></li>
-                    <li><i class="fab fa-github"></i><a href="https://github.com/Gishtall/resum">GitHub</a></li>
-                    <li><i class="fab fa-aws"></i><a href="https://s3.amazonaws.com/itresum/resum.html">AWS</a></li>
+                    <li><i class="fas fa-mail-bulk"></i> <a href="#">Gishtall@gmail.com</a></li>
+                    <li><i class="fab fa-viber"></i> <a href="#">+375(29)388 05 07</a></li>
+                    <li><i class="fas fa-phone-volume"></i> <a href="#">+375(33)602 36 74</a></li>
+                    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/gishtall/">Instagram</a></li>
+                    <li><i class="fab fa-telegram"></i> <a href="http://t.me/gishtall/">Telegram</a></li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/Gishtall/resum">GitHub</a></li>
+                    <li><i class="fab fa-aws"></i> <a href="https://s3.amazonaws.com/itresum/resum.html">AWS</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col">
               <h4>Skills</h4>
+              <li><i class="fas fa-star"> </i> <a href="#"> Windows</a></li>
+              <li><i class="fas fa-star"> </i> <a href="#"> Photoshop</a></li>
+              <li><i class="fas fa-star"> </i> <a href="#"> Git</a></li>
+              <li><i class="fas fa-star"> </i> <a href="#"> Aws</a></li>
+              <li><i class="fas fa-check"> </i> <a href="#"> Good communication skills</a></li>
+              <li><i class="fas fa-check"> </i> <a href="#"> Able to self-studying</a></li>
+              <li><i class="fas fa-check"> </i> <a href="#"> Highly motivated</a></li>
+              <li><i class="fas fa-check"> </i> <a href="#"> Fast-learning</a></li>
               </div>
-          </div>
+            </div>
           <div class="row">
            <div class="col">
            <h4>About me</h4>
@@ -90,11 +98,62 @@ function render() {
                     </div>
                   </div>
                 </div>
-  
               </div>
             </div>
            </div>
-          
+           <div class="row">
+           <div class="col">
+             <h4>Calculator</h4>
+             <!--Calc-->
+             <div class="calc">
+               <form name=calcform>
+                 <input type=text placeholder="0" name=txt1 style="text-align:right"><br>
+                 <input type=button class="btn btn-outline-dark" name=btn9 value=9 onclick="displynum(btn9.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn8 value=8 onclick="displynum(btn8.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn7 value=7 onclick="displynum(btn7.value)">
+                 <input type=button class="btn btn-outline-dark" name=addbtn value=+ onclick="displynum(addbtn.value)"><br>
+                 <input type=button class="btn btn-outline-dark" name=btn6 value=6 onclick="displynum(btn6.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn5 value=5 onclick="displynum(btn5.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn4 value=4 onclick="displynum(btn4.value)">
+                 <input type=button class="btn btn-outline-dark" name=subbtn value=- onclick="displynum(subbtn.value)"><br>
+                 <input type=button class="btn btn-outline-dark" name=btn3 value=3 onclick="displynum(btn3.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn2 value=2 onclick="displynum(btn2.value)">
+                 <input type=button class="btn btn-outline-dark" name=btn1 value=1 onclick="displynum(btn1.value)">
+                 <input type=button class="btn btn-outline-dark" name=btnmul value=* onclick="displynum(btnmul.value)"><br>
+                 <input type=button class="btn btn-outline-dark" name=btn0 value=0 onclick="displynum(btn0.value)">
+                 <input type=button class="btn btn-outline-dark" name=potbtn value=. onclick="displynum(potbtn.value)">
+                 <input type=button class="btn btn-outline-dark" name=eqlbtn value="=" onclick="txt1.value=eval(txt1.value)">
+                 <input type=button class="btn btn-outline-dark" name=divbtn value=/ onclick="displynum(divbtn.value)">
+               </form>
+             </div>
+             <!--Calc-->
+           </div>
+           <div class="col">
+             <h4> To Do List</h4>
+             <!--tdlist-->
+             <div class="app">
+               <div class="app__header">
+                 <div class="app__title"><span class="app__title-text">My Tasks</span></div>
+                 <div class="app__info">
+                   <div class="app__info-item">
+                     <span class="app__info-text">All tasks</span>
+                     <span class="app__info-number" id="js-all-tasks"></span>
+                   </div>
+                   <div class="app__info-item">
+                     <span class="app__info-text">Tasks done</span>
+                     <span class="app__info-number" id="js-done-tasks"></span>
+                   </div>
+                 </div>
+               </div>
+               <div class="app__body">
+                 <ul class="app__list" id="app__list"></ul>
+               </div>
+               <div class="app__footer">
+                 <input class="app__task-new" id="app__task-new" placeholder="Add new task">
+               </div>
+             </div>
+           </div>
+           <!--tdlist-->
           <div class="row">
             <!--player-->
             <div class="col">
@@ -133,60 +192,7 @@ function render() {
               </div>
               <!--gallery-->
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <h4>Calculator</h4>
-              <!--Calc-->
-              <div class="calc">
-                <form name=calcform>
-                  <input type=text placeholder="0" name=txt1 style="text-align:right"><br>
-                  <input type=button class="btn btn-outline-dark" name=btn9 value=9 onclick="displynum(btn9.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn8 value=8 onclick="displynum(btn8.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn7 value=7 onclick="displynum(btn7.value)">
-                  <input type=button class="btn btn-outline-dark" name=addbtn value=+ onclick="displynum(addbtn.value)"><br>
-                  <input type=button class="btn btn-outline-dark" name=btn6 value=6 onclick="displynum(btn6.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn5 value=5 onclick="displynum(btn5.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn4 value=4 onclick="displynum(btn4.value)">
-                  <input type=button class="btn btn-outline-dark" name=subbtn value=- onclick="displynum(subbtn.value)"><br>
-                  <input type=button class="btn btn-outline-dark" name=btn3 value=3 onclick="displynum(btn3.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn2 value=2 onclick="displynum(btn2.value)">
-                  <input type=button class="btn btn-outline-dark" name=btn1 value=1 onclick="displynum(btn1.value)">
-                  <input type=button class="btn btn-outline-dark" name=btnmul value=* onclick="displynum(btnmul.value)"><br>
-                  <input type=button class="btn btn-outline-dark" name=btn0 value=0 onclick="displynum(btn0.value)">
-                  <input type=button class="btn btn-outline-dark" name=potbtn value=. onclick="displynum(potbtn.value)">
-                  <input type=button class="btn btn-outline-dark" name=eqlbtn value="=" onclick="txt1.value=eval(txt1.value)">
-                  <input type=button class="btn btn-outline-dark" name=divbtn value=/ onclick="displynum(divbtn.value)">
-                </form>
-              </div>
-              <!--Calc-->
-            </div>
-            <div class="col">
-              <h4> To Do List</h4>
-              <!--tdlist-->
-              <div class="app">
-                <div class="app__header">
-                  <div class="app__title"><span class="app__title-text">My Tasks</span></div>
-                  <div class="app__info">
-                    <div class="app__info-item">
-                      <span class="app__info-text">All tasks</span>
-                      <span class="app__info-number" id="js-all-tasks"></span>
-                    </div>
-                    <div class="app__info-item">
-                      <span class="app__info-text">Tasks done</span>
-                      <span class="app__info-number" id="js-done-tasks"></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="app__body">
-                  <ul class="app__list" id="app__list"></ul>
-                </div>
-                <div class="app__footer">
-                  <input class="app__task-new" id="app__task-new" placeholder="Add new task">
-                </div>
-              </div>
-            </div>
-            <!--tdlist-->
+          </div>          
           </div>
         </div>
       </div>
