@@ -60,12 +60,12 @@ function render() {
            <h4>About me</h4>
            <div>
   
-                My knowledge of web-development started with Adobe Photoshop. I was helping my friend with user bars,
-                icons and banners for his web-site. But all those elements were static. I wondered how I could change
-                this. Search engines gave me three main directions for that - html, css, javascript.
-                As I found out, I wasn’t the only one who was interested in those aspects. Quite a lot of people were in
-                the same place. I found many relevant articles, books, communities, videos. In my spare time I was
-                learning those materials and trying to apply my knowledge into... </br>
+           My knowledge in Web development started with Adobe Photoshop. I helped to create my friend panels of the user,
+           icons and banners for this website. But all these elements were static. 
+           I wondered how I could change that. 
+           Search engines gave me three main directions for this purpose - html, css and javascript.
+           I found many relevant articles, books, communities, video. In my free time I studied these materials and tried to apply their knowledge...
+            
   
                 <button type="button" class="btn btn-block" data-toggle="modal" data-target="#myModal">
                   <h5>more</h5>
@@ -83,24 +83,14 @@ function render() {
                         <h4 class="modal-title" id="myModalLabel">About me</h4>
                       </div>
                       <div class="modal-body">
-                        My knowledge of web-development started with Adobe Photoshop. I was helping my friend with user
-                        bars, icons and banners for his web-site. But all those elements were static. I wondered how I
-                        could change this. Search engines gave me three main directions for that - html, css, javascript.
-                        </br>
-                        As I found out, I wasn’t the only one who was interested in those aspects. Quite a lot of people
-                        were in the same place. I found many relevant articles, books, communities, videos. In my spare
-                        time I was learning those materials and trying to apply my knowledge into practice. </br>
-                        Later my friends-programmers explained me that the thing I was doing was called front-end. That’s
-                        how I realized what exactly I wanted to do in my future. As I was diving into front-end more and
-                        more, my curiosity was growing. I signed up for stack overflow, github, qaru, habr, etc. I was
-                        learning how to work with libraries and frameworks. I applied some of them while creating this
-                        resume. </br>
-                        I like this profession, as it is tightly connected with steady development. Every single day I
-                        get to know something new and improve myself. This is the reason I quitted my previous job and
-                        decided to devote myself to programming. </br>
-                        I’m learning React at the moment. </br>
-                        I attend conferences, meet-ups. </br>
-                        I’m looking for a place where I will be able to improve my knowledge and reach new heights.
+                      My knowledge in Web development started with Adobe Photoshop. I helped to create my friend panels of the user, icons and banners for this website. But all these elements were static. I wondered how I could change that. Search engines gave me three main directions for this purpose - html, css and javascript.</br>
+                      I found many relevant articles, books, communities, video. In my free time I studied these materials and tried to apply their knowledge in practice. </br>
+                      Later, my friends-programmers explained me that the thing I was doing was called front-end. - so i got acquainted with front-end development. That’s how I realized what exactly I want to do in my future. As I plunged into front-end more and more, my curiosity was growing. I subscribed to stack overflow, github, qaru, habr, etc.I learned to work with libraries and frameworksI applied some of them while creating this CV. </br>
+                      I like this profession, as it is closely related to sustainable development.  Every day I learn something new and improve myself. For this reason, I quit my previous job and decided to devote myself to programming. </br>
+                      I am learning React at the moment. </br>
+                      I attend conferences, meetings. </br>
+                      I am looking for a place where I will be able to improve my knowledge and reach new heights.</br>
+                      
   
                       </div>
                       <div class="modal-footer">
