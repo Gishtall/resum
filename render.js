@@ -26,17 +26,16 @@ function render() {
                     <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/gishtall/">Instagram</a></li>
                     <li><i class="fab fa-telegram"></i> <a href="http://t.me/gishtall/">Telegram</a></li>
                     <li><i class="fab fa-github"></i> <a href="https://github.com/Gishtall/resum">GitHub</a></li>
-                    <li><i class="fab fa-aws"></i> <a href="https://s3.amazonaws.com/itresum/resum.html">AWS</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col">
               <h4>Skills</h4>
-              <li><i class="fas fa-star"> </i> <a href="#"> Windows</a></li>
-              <li><i class="fas fa-star"> </i> <a href="#"> Photoshop</a></li>
-              <li><i class="fas fa-star"> </i> <a href="#"> Git</a></li>
-              <li><i class="fas fa-star"> </i> <a href="#"> Aws</a></li>
+              <li><i class="fas fa-star">  Windows</i></li>
+              <li><i class="fas fa-star"> Photoshop</i></li>
+              <li><i class="fas fa-star"> Git</i></li>
+              <li><i class="fas fa-star"> Aws</i></li>
               <li><i class="fas fa-check"> </i> <a href="#"> Good communication skills</a></li>
               <li><i class="fas fa-check"> </i> <a href="#"> Able to self-studying</a></li>
               <li><i class="fas fa-check"> </i> <a href="#"> Highly motivated</a></li>
