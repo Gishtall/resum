@@ -45,7 +45,6 @@ function render() {
               </div>
               <div class="col">
               <li><i class="fas fa-star"> jquery</i></li>
-              <li><i class="fas fa-star"> Ide</i></li>
               <li><i class="fas fa-star"> Npm</i></li>
               <li><i class="fas fa-star"> nodeJs</i></li>
               <li><i class="fas fa-star"> React</i></li>
