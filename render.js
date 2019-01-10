@@ -154,6 +154,8 @@ function render() {
              </div>
            </div>
            <!--tdlist-->
+           </div>
+    
           <div class="row">
             <!--player-->
             <div class="col">
@@ -197,8 +199,7 @@ function render() {
         </div>
       </div>
     </div>
-    </div>
-    </div>
+    
     `;
 }
 render();
