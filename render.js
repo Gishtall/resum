@@ -32,14 +32,29 @@ function render() {
             </div>
             <div class="col">
               <h4>Skills</h4>
-              <li><i class="fas fa-star">  Windows</i></li>
+              <div class="row">
+              <div class="col">
+              <li><i class="fas fa-star"> Windows</i></li>
               <li><i class="fas fa-star"> Photoshop</i></li>
               <li><i class="fas fa-star"> Git</i></li>
               <li><i class="fas fa-star"> Aws</i></li>
-              <li><i class="fas fa-check"> </i> <a href="#"> Good communication skills</a></li>
-              <li><i class="fas fa-check"> </i> <a href="#"> Able to self-studying</a></li>
-              <li><i class="fas fa-check"> </i> <a href="#"> Highly motivated</a></li>
-              <li><i class="fas fa-check"> </i> <a href="#"> Fast-learning</a></li>
+              <li><i class="fas fa-star"> Html</i></li>
+              <li><i class="fas fa-star"> CSS</i></li>
+              <li><i class="fas fa-star"> JavaScript</i></li>
+              <li><i class="fas fa-star"> Bootstrap</i></li>
+              </div>
+              <div class="col">
+              <li><i class="fas fa-star"> jquery</i></li>
+              <li><i class="fas fa-star"> Ide</i></li>
+              <li><i class="fas fa-star"> Npm</i></li>
+              <li><i class="fas fa-star"> nodeJs</i></li>
+              <li><i class="fas fa-star"> React</i></li>
+              <li><i class="fas fa-check"> Able to self-studying</i></li>
+              <li><i class="fas fa-check"> Highly motivated</i></li>
+              <li><i class="fas fa-check"> Fast-learning</i></li>
+              <li><i class="fas fa-check"> Good communication skills</i></li>
+              </div>
+              </div>
               </div>
             </div>
           <div class="row">
