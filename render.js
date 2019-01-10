@@ -25,7 +25,6 @@ function render() {
                     <li><i class="fas fa-phone-volume"></i> <a href="#">+375(33)602 36 74</a></li>
                     <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/gishtall/">Instagram</a></li>
                     <li><i class="fab fa-telegram"></i> <a href="http://t.me/gishtall/">Telegram</a></li>
-                    <li><i class="fab fa-github"></i> <a href="https://github.com/Gishtall/resum">GitHub</a></li>
                   </ul>
                 </div>
               </div>
