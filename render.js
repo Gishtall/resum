@@ -109,7 +109,6 @@ function render() {
            <div class="row">
            <div class="col">
              <h4>Calculator</h4>
-             <!--Calc-->
              <div class="calc">
                <form name=calcform>
                  <input type=text placeholder="0" name=txt1 style="text-align:right"><br>
