@@ -129,6 +129,17 @@ h4 {
 .close:focus, .close:hover{
     outline: none;
 }
+/* parallax */
+.btn-lg  
+{
+margin:10%;
+}
+
+#plx{
+height:300px ;
+background: transparent;
+border-radius: 0px;
+}
 
 /* player */
 
@@ -170,7 +181,7 @@ a.photo:hover img {
 /* calc */
 
 .calc {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     border: 3px solid rgba(0, 54, 202, 0.678);
     border-radius: 10px;
@@ -179,7 +190,7 @@ a.photo:hover img {
 
 input[type=button] {
     margin: 5px 5px 5px 13px;
-    height: 80px;
+    max-height: 80px;
     width: 100px;
     border: 2px solid rgb(11, 35, 173);
     font-size: 50px;
@@ -187,10 +198,12 @@ input[type=button] {
 
 input[type=text] {
     height: 80px;
-    width: 494px;
+    width: 99%; 
+    padding: 1%;
     border: 2px solid black;
     border-radius: 10px;
     margin-bottom: 0 auto;
+    margin-left: 2px;
     font-size: 50px;
 }
 

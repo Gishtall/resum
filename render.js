@@ -106,6 +106,17 @@ function render() {
               </div>
             </div>
            </div>
+          <!--parallax-->
+          <div class="row text-center">
+            <div class="col" id="plx" data-parallax="scroll" data-image-src="./image/parallax.jpg">
+                
+               <h4>My app on React</h4>
+                 <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">See more</a> 
+            </div>
+          </div>
+
+
+          <!--Calc-->
            <div class="row">
            <div class="col">
              <h4>Calculator</h4>
