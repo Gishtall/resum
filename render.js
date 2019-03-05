@@ -96,9 +96,8 @@ function render() {
                       
   
                       </div>
-                      <div class="modal-footer">
+                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-  
                       </div>
                     </div>
                   </div>
@@ -108,10 +107,9 @@ function render() {
            </div>
           <!--parallax-->
           <div class="row text-center">
-            <div class="col" id="plx" data-parallax="scroll" data-image-src="./image/parallax.jpg">
-                
+            <div class="col" id="plx" data-parallax="scroll" data-image-src="./image/parallax.jpg"> 
                <h4>My app on React</h4>
-                 <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">See more</a> 
+                 <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Coming soon</a> 
             </div>
           </div>
 
@@ -210,7 +208,7 @@ function render() {
               <!--gallery-->
             </div>
           </div>          
-          </div>
+         </div>
         </div>
       </div>
     </div>
