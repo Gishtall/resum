@@ -8,13 +8,13 @@ body {
     font-size: 20px;
     overflow-x: hidden;
 }
-    A {
+    a {
         color: rgb(11, 100, 173); 
        }
-       A:visited {
+       a:visited {
         color: rgba(0, 71, 202, 0.678); 
        }
-       A:active {
+       a:active {
         color: rgb(13, 0, 199); 
        }
 
