@@ -84,7 +84,7 @@ function displynum(n1) {
                 return this.done.length;
             }
         },
-        // переменные для цифер
+        // переменные для цифр
         tasksList = document.getElementById("app__list"),
         allTasks = document.getElementById("js-all-tasks"),
         doneTasks = document.getElementById("js-done-tasks"),
