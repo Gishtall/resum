@@ -9,7 +9,7 @@ function render() {
           <div class="row">
             <div class="col">
               <!--photo & continfo-->
-              <h4>Photo & contacts</h4>
+              <h4>Photo and contacts</h4>
               <div class="row">
                 <div class="col-6">
                   <div class="section__content">
@@ -36,26 +36,30 @@ function render() {
               <h4>Skills</h4>
               <div class="row">
               <div class="col">
-              <li><i class="fas fa-star"> Windows</i></li>
-              <li><i class="fas fa-star"> Photoshop</i></li>
-              <li><i class="fas fa-star"> Git</i></li>
-              <li><i class="fas fa-star"> Aws</i></li>
-              <li><i class="fas fa-star"> Html</i></li>
-              <li><i class="fas fa-star"> CSS</i></li>
-              <li><i class="fas fa-star"> JavaScript</i></li>
-              <li><i class="fas fa-star"> Bootstrap</i></li>
-              <li><i class="fas fa-star"> Babel</i></li>
+               <ul>
+                 <li><i class="fas fa-star"> Windows</i></li>
+                 <li><i class="fas fa-star"> Photoshop</i></li>
+                 <li><i class="fas fa-star"> Git</i></li>
+                 <li><i class="fas fa-star"> Aws</i></li>
+                 <li><i class="fas fa-star"> Html</i></li>
+                 <li><i class="fas fa-star"> CSS</i></li>
+                 <li><i class="fas fa-star"> JavaScript</i></li>
+                 <li><i class="fas fa-star"> Bootstrap</i></li>
+                 <li><i class="fas fa-star"> Babel</i></li>
+               </ul> 
               </div>
               <div class="col">
-              <li><i class="fas fa-star"> Webpack</i></li>
-              <li><i class="fas fa-star"> jquery</i></li>
-              <li><i class="fas fa-star"> Npm</i></li>
-              <li><i class="fas fa-star"> nodeJs</i></li>
-              <li><i class="fas fa-star"> React</i></li>
-              <li><i class="fas fa-check"> Able to self-studying</i></li>
-              <li><i class="fas fa-check"> Highly motivated</i></li>
-              <li><i class="fas fa-check"> Fast-learning</i></li>
-              <li><i class="fas fa-check"> Good communication skills</i></li>
+                <ul>
+                  <li><i class="fas fa-star"> Webpack</i></li>
+                  <li><i class="fas fa-star"> jquery</i></li>
+                  <li><i class="fas fa-star"> Npm</i></li>
+                  <li><i class="fas fa-star"> nodeJs</i></li>
+                  <li><i class="fas fa-star"> React</i></li>
+                  <li><i class="fas fa-check"> Able to self-studying</i></li>
+                  <li><i class="fas fa-check"> Highly motivated</i></li>
+                  <li><i class="fas fa-check"> Fast-learning</i></li>
+                  <li><i class="fas fa-check"> Good communication skills</i></li>
+                </ul>
               </div>
               </div>
               </div>
