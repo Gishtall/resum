@@ -20,12 +20,14 @@ function render() {
                 </div>
                 <div class="col">
                   <ul>
+                    <li>Aliaksandr<br>Khadasevich</li>
                     <li><i class="fas fa-mail-bulk"></i> <a href="#">Gishtall@gmail.com</a></li>
                     <li><i class="fab fa-viber"></i> <a href="#">+375(29)388 05 07</a></li>
                     <li><i class="fas fa-phone-volume"></i> <a href="#">+375(33)602 36 74</a></li>
                     <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/gishtall/">Instagram</a></li>
                     <li><i class="fab fa-telegram"></i> <a href="http://t.me/gishtall/">Telegram</a></li>
                     <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/gishtall/">Linkedin</a></li>
+                    <li><i class="fab fa-skype"></i> <a href="#">gishtall</a></li>
                   </ul>
                 </div>
               </div>
