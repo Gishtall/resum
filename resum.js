@@ -54,18 +54,18 @@ $(document).ready(function(){
 
 // calculator
 function displynum(n1) {
-    calcform.txt1.value=calcform.txt1.value+n1;{
+    calcform.txt1.value=calcform.txt1.value+n1;
     }
     
 // calculator
 // tdlist
 (function () {
-    let tasks = {
+    var tasks = {
         // current tasks 
             current: [{
                 taskId: doId(),
-                taskContent: " to do curriculum vitae ",
-                taskState: "done"
+                taskContent: "find a mentor",
+                taskState: "current"
             }, {
                 taskId: doId(),
                 taskContent: "to get a job in a perspective company and  continue training",
@@ -74,8 +74,8 @@ function displynum(n1) {
             // done tasks
             done: [{
                 taskId: doId(),
-                taskContent: "find a mentor",
-                taskState: "current"
+                taskContent: "to do resume ",
+                taskState: "done"
             }],
             // returns length of mass
             get allTasks() {
