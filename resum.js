@@ -74,7 +74,7 @@ function displynum(n1) {
             // done tasks
             done: [{
                 taskId: doId(),
-                taskContent: "to do resume ",
+                taskContent: "to do portfolio ",
                 taskState: "done"
             }],
             // returns length of mass
