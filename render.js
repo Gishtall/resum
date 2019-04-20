@@ -45,7 +45,7 @@ function render() {
                  <li><i class="fas fa-star"> CSS</i></li>
                  <li><i class="fas fa-star"> JavaScript</i></li>
                  <li><i class="fas fa-star"> Bootstrap</i></li>
-                 <li><i class="fas fa-star"> Babel</i></li>
+                 <li><i class="fas fa-star"> Docker</i></li>
                </ul> 
               </div>
               <div class="col">

@@ -55,6 +55,16 @@ $(document).ready(function(){
 // calculator
 function displynum(n1) {
     calcform.txt1.value=calcform.txt1.value+n1;
+    // if (!isFinite(txt1)) {
+    //     if (isNaN(txt1)) { // If result is not a number; set off by, eg, double-clicking operators
+    //       txt1 = "You broke it!";
+    //     } else { // If result is infinity, set off by dividing by zero
+    //       txt1 = "Look at what you've done";
+    //       el('#calculator').classList.add("broken"); // Break calculator
+    //       el('#reset').classList.add("show"); // And show reset button
+          
+    //     }
+    //   }
     }
     
 // calculator
